@@ -8,9 +8,9 @@ import "./styles.scss";
 const Home = () => {
   const navigate = useNavigate();
 
-  const handleNavigateToContactMePage = () => {
-    navigate("/contact");
-  };
+  // const handleNavigateToContactMePage = () => {
+  //   navigate("/contact");
+  // };
 
   return (
     <section id="home" className="home">
@@ -36,6 +36,7 @@ const Home = () => {
           {/* <button onClick={handleNavigateToContactMePage}>Hire Me</button> */}
           <button className="home__contact-me__download-btn"  onClick={handleCVDownload}>Download CV</button>
         </div>
+
       </Animate>
     </section>
   );
