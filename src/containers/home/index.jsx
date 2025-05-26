@@ -33,7 +33,7 @@ const Home = () => {
         }}
       >
         <div className="home__contact-me">
-          <button onClick={handleNavigateToContactMePage}>Hire Me</button>
+          {/* <button onClick={handleNavigateToContactMePage}>Hire Me</button> */}
           <button className="home__contact-me__download-btn"  onClick={handleCVDownload}>Download CV</button>
         </div>
       </Animate>
