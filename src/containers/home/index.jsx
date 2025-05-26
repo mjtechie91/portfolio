@@ -1,12 +1,12 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { Animate } from "react-simple-animate";
 import { handleCVDownload } from "../../utils.js/utils";
 
 import "./styles.scss";
 
 const Home = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   // const handleNavigateToContactMePage = () => {
   //   navigate("/contact");
